@@ -260,7 +260,7 @@ export default function Main() {
         align-items: center;
     }
     .menu-item-container {
-      margin-bottom: 16px;
+      margin-bottom: 8px;
     }
     .list-item {
       display: flex;
@@ -343,28 +343,22 @@ export default function Main() {
         cursor: pointer;
         height: 50px;
         margin: 10px;
-        margin-top: 12px;
+        margin-top: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .channel-button-content { 
         color: #43B581;
-        padding-top: 14px;
     }
 
     .channel-button:hover {
         border-radius: 12px;
         background-color: #43B581; 
     }
+    
     .channel-button:hover .channel-button-content{
         color: white; 
-    }
-    #shelf-icon {
-      padding-right: 7px;
-      background-color: skyblue;
-    }
-    #shelf  {
-      -webkit-transform: rotate(270deg);
-      font-weight: 600;
-      color: navy;
     }
 
     hr {
@@ -383,15 +377,13 @@ export default function Main() {
 
     .subtitle {
         font-weight: 500;
-        font-size: 12px;
+        font-size: 13px;
         color: #8E9298;
     }
     .list-item-text {
         font-weight: 600;
         color: #8E9298;
         font-size: 16px;
-        padding-top: 7px;
-        padding-bottom: 7px;
     }
 
     #search-bar-text {
